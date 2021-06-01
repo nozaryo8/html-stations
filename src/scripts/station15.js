@@ -2,7 +2,7 @@ async function getData() {
   // Promiseを使った実装をやってみましょう！APIとの通信でよく使う表現になります！
   // const result = await test()
   const result = new Promise(resolve => {
-    setTimeout(resolve, 3000, test());
+    setTimeout(resolve, 2900, test());
   });
 
   result.then(value => {
