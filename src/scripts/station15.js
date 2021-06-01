@@ -6,7 +6,7 @@ async function getData() {
   });
 
   result.then(value => {
-    return value
+    console.log({ value })
   })
 
   return await result
